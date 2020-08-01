@@ -290,7 +290,7 @@ Let's look at an example, as follows:
 To be able to push an image to my personal account on Docker Hub, I need to tag it accordingly, as follows:  
 
 > `docker image tag alpine: latest gaiheilukamei/alpine:1.0`  
-> `docker login -u gaiheilukamei -p <my secret password`  
+> `docker login -u gaiheilukamei -p <my secret password>`  
 > `docker image push gaiheilukamei/alpine:1.0`
 
 ## Further reading
